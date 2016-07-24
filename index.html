@@ -73,19 +73,19 @@
 						<h2>A little about me.</h2>
 						<h4>I...</h4>
 						<ul>
-							<li class="fragment">am from Toronto (but a bunch of my family lives in Montreal!)</li>
+							<li class="fragment">am from Toronto (but half of my family is from Montreal!)</li>
 							<li class="fragment">work as web designer &amp; front end developer</li>
 							<li class="fragment">have been developing WP themes for 10 years</li>
 							<li class="fragment">run my own small business</li>
-							<li class="fragment">lead Ladies Learning Code workshops &amp; mentor at HackerYou and Camp Tech</li>
+							<li class="fragment">can also be found leading Ladies Learning Code workshops &amp; TAing at Camp Tech</li>
 						</ul>
 					</section>
 
 				</section>
 
 				<section>
-					<h2>This talk is aimed at:</h2>
-					<h3>WordPress theme developers who create custom (parent) themes</h3>
+					<h2>This talk is especially aimed at:</h2>
+					<p><strong>WordPress theme developers who create custom (parent) themes</strong></p>
 					<p class="fragment">Suggestions can apply to either solo devs or teams.</p>
 				</section>
 
@@ -95,8 +95,8 @@
 
 				<section>
 					<h2><strong>1. You can automate lots of non-fun tasks</strong></h2>
-					<h3 class="fragment">Who loves compressing images, linting code, and creating sprites?</h3>
-					<h4 class="fragment">Anyone?</h4>
+					<p class="fragment">Who here loves compressing images, linting code, and creating sprites by hand?<br>&nbsp;</p>
+					<h3 class="fragment">😴😴😴</h3>
 				</section>
 
 				<section data-background="img/clock2.jpg" data-state="white-text">
@@ -104,18 +104,18 @@
 				</section>
 
 				<section data-background="img/monopoly-bills.jpg" data-state="white-text">
-					<h2>Time = $$</h2>
+					<h2>Time = 💰💰</h2>
 				</section>
 
 				<section data-background="img/freedom.jpg" data-state="white-text">
 					<h2>But more importantly...</h2>
-					<h2 class="fragment"><strong>Time = freedom</strong></h2>
+					<h2 class="fragment"><strong>Time = freedom!</strong></h2>
 				</section>
 
 				<!-- <section data-background="img/camera-keys.jpg" data-state="white-text"> -->
 				<section>
 					<h2>WordPress dev is great, of course...</h2>
-					<h3 class="fragment">but having the time to pursue other things in life is also pretty great.</h2>
+					<p class="fragment">...but having the time to pursue other things in life is also pretty great.</p>
 				</section>
 
 				<section>
@@ -131,25 +131,25 @@
 				<section>
 					<h3>If you've ever wondered...</h3>
 					<img src="img/git-wp.png" class="noborder" alt="">
-					<h3 class="fragment">Then this talk is for you!</h3>
+					<h3 class="fragment">This talk is for you!</h3>
 				</section>
 
 				<section>
 					<h1>First Disclaimer</h1>
-					<h3>There's no right way to do front-end development — this is just one way.</h3>
+					<p>There's no "right way" to do front-end development — this is just one way.</p>
 				</section>
 
 				<section data-background="img/eggzzz.gif">
-					<h3 class="label"><span>Devs have a lot of opinions/feels about the "right" way to do things</span></h3>
+					<h3 class="label"><span>Developers have a lot of opinions/feels about the "right" way to do things</span></h3>
 				</section>
 
 				<section>
-					<h3>Don't be intimidated by needing to use the "right" tools — see what works best for you.</h3>
+					<p>Don't be intimidated by needing to use the "right" tools — see what works best for you!</p>
 				</section>
 
 				<section>
 					<h1>Second Disclaimer</h1>
-					<h3>Most of the not-so-great development practices I'll talk about come from first hand experience.</h3>
+					<p>Most of the not-so-great development practices I'll talk about come from first hand experience.</p>
 				</section>
 
 				<section data-background="img/swirl2teal.jpg" data-state="white-text">
@@ -162,7 +162,7 @@
 					<ul>
 						<li class="fragment">No White Screen of Death™ on a client's live site</li>
 						<li class="fragment">Local sites load more quickly</li>
-						<li class="fragment">No embarrassment <s>if</s> when you eff things up</li>
+						<li class="fragment">No embarrassment <s>if</s> when you mess things up</li>
 						<li class="fragment">Allows you to use version control<br><small class="fragment">You're using version control, right? Right?</small></li>
 						<li class="fragment">You can use task runners, CSS preprocessors, etc.</li>
 					</ul>
@@ -185,10 +185,10 @@
 						<h2>My local development process:</h2>
 						<ol>
 							<li class="fragment">Develop the entire website locally</li>
-							<li class="fragment">Along the way, commit changes to git and push to Bitbucket (similar to GitHub)</li>
+							<li class="fragment">Along the way, commit changes with Git and push to Bitbucket <em>(similar to GitHub)</em></li>
 							<li class="fragment">Copy local site to a staging server</li>
 							<li class="fragment">Copy staging site to client's server</li>
-							<li class="fragment"><s>If</s> when changes are needed after initial development, <strong>make them on the local copy</strong> and push them to staging, and then live.</li>
+							<li class="fragment"><s>If</s> when changes are needed after initial development, <strong>make them on the local copy</strong> and then push them live.</li>
 						</ol>
 					</section>
 					<section>
@@ -202,7 +202,7 @@
 
 				<section>
 					<section>
-						<h2>My Local dev environment of choice:</h2>
+						<h2>My local dev environment of choice:</h2>
 						<img src="img/mamp.png" class="noborder" alt="">
 						<p><a href="http://www.mamp.info/en/">MAMP/MAMP Pro</a> (Mac + Windows)</p>	
 					</section>
@@ -224,7 +224,7 @@
 					<h2>What MAMP does</h2>
 					<ul>
 						<li class="fragment">the "AMP" in MAMP/XAMPP/AMPPS stands for <strong>Apache</strong>, <strong>MySQL</strong> and <strong>PHP</strong></li>
-						<li class="fragment">MySQL and PHP are required to run WP and Apache is highly recommended.</li>
+						<li class="fragment">MySQL and PHP are required to run WP and Apache is a very common web server.</li>
 						<li class="fragment">These apps replicate the setup of common web hosts on your computer</li>
 						<li class="fragment">Free MAMP gives you a local server located at <strong>http://localhost:8888</strong></li>
 						<li class="fragment">MAMP Pro lets you assign custom domain names to each local site (e.g. <strong>http://sitename.dev</strong>)</li>
@@ -245,7 +245,7 @@
 
 				<section>
 					<h2>Setting up your first local WordPress site</h2>
-					<p><strong>Installing WordPress with Desktop server is as easy as...</strong></p>
+					<p><strong>Installing WordPress with Desktop Server is as easy as...</strong></p>
 					<ol>
 						<li class="fragment">Opening up the program and following their new site wizard</li>
 						<li class="fragment">Congrats, friend! You now have a WordPress site running on your computer.</li>
@@ -262,7 +262,7 @@
 					<ul>
 						<li class="fragment">Coding your theme 100% from scratch</li>
 						<li class="fragment">Using an old theme of yours as a starter theme</li>
-						<li class="fragment">Using a default theme (like twentyfourteen) as a starter theme</li>
+						<li class="fragment">Using a WordPress default theme (like twentysixteen) as a starter theme</li>
 					</ul>
 				</section>
 
@@ -276,7 +276,7 @@
 				</section>
 
 				<section>
-					<h3><strong>Time wasters #2 + 3:</strong><br>Using a finished theme (yours or WP's) as your starter theme</h3>
+					<h3><strong>Time wasters #2 + 3:</strong><br>Using a finished theme (yours or WordPress's) as your starter theme</h3>
 					<ul>
 						<li>Lots of time spent undoing old work (either yours or someone else's)</li>
 						<li>Easy to make poor coding decisions based on laziness/what's already there</li>
@@ -293,7 +293,7 @@
 						<h3>A few popular starter themes</h3>
 						<ul>
 							<li><a href="http://underscores.me/">Underscores</a> (made by Automattic)</li>
-							<li><a href="http://roots.io/starter-theme/">Roots</a></li>
+							<li><a href="http://roots.io/starter-theme/">Sage</a></li>
 							<li><a href="http://themble.com/bones/">Bones</a></li>
 						</ul>
 				</section>
@@ -318,19 +318,19 @@
 				</section>
 
 				<section>
-					<h2>Yay for starter themes!</h2>
-					<h3>The tedious stuff is done for you and there's little to no styling to undo.</h3>
+					<h3>✨ Yay for starter themes! ✨</h3>
+					<p>The tedious stuff is done for you and there's little to no styling to undo.</p>
 				</section>
 
 				<section data-background="img/g013_stunned_cat_open_mouth.gif">
-					<h3 class="label"><span>What if I told you we could take that one step further?</span></h3>
+					<h3 class="label"><span>What if I told you we could take that one step further? 😮</span></h3>
 					<!-- <img src="img/g013_stunned_cat_open_mouth.gif" class="fragment noborder" alt=""> -->
 				</section>
 
 				<section>
 					<h2>The best starter theme...</h2>
 					<div class="fragment">
-						<h3>Is your own, personalized starter theme!</h3>
+						<p>...is your own, personalized starter theme!</p>
 						<p>No one knows your own coding style as well as you do.</p>
 					</div>
 				</section>
@@ -404,7 +404,7 @@ add_filter( 'tiny_mce_before_init', 'unhide_kitchensink' );
 				</section>
 
 				<section>
-					<h3>Just kidding ;D</h3>
+					<h3>Just kidding 😜</h3>
 				</section>
 
 				<section>
@@ -422,7 +422,7 @@ add_filter( 'tiny_mce_before_init', 'unhide_kitchensink' );
 				</section>
 
 				<section>
-					<h2>Grunt or Gulp?</h2>
+					<h2>Grunt or Gulp? 🤔</h2>
 				</section>
 
 				<section data-background="img/eggzzz.gif">
@@ -431,7 +431,7 @@ add_filter( 'tiny_mce_before_init', 'unhide_kitchensink' );
 
 				<section>
 					<h2>I personally use Gulp.</h2>
-					<h3>you have my blessing to use either one.</h3>
+					<p>You have my blessing to use whichever one you want.</p>
 				</section>
 
 				<section>
@@ -525,7 +525,7 @@ gulp.task('sass', function() {
 }
 
 </code></pre>
-				<h3 class="fragment">:D</h3>					
+				<h3 class="fragment">😻</h3>					
 				</section>
 
 				<section>
@@ -579,37 +579,6 @@ gulp.task('images', function() {
 					</code></pre>
 				</section>
 
-				<!-- <section>
-					<h3>Using sprites in your (s)css</h3>
-					<ul>
-						<li class="fragment">Include the <strong>_sprites.scss</strong> partial in your <strong>style.scss</strong> file</li>
-						<li class="fragment">Write <strong>@include sprite($name-of-image);</strong></li>
-						<li class="fragment">That's it. There is no step 3.</li>
-					</ul>
-				</section>
-
-				<section>
-					<h3>Sprites before Gulp</h3>
-<pre><code class="css">
-	.site-title a {
-	    background-image: url(img/sprite.png);
-	    background-position: -314px -159px;
-	    width: 300px;
-	    height: 100px;
-	}
-
-</code></pre>
-				</section>
-
-				<section>
-					<h3>Sprites after Gulp</h3>
-<pre><code class="scss">
-	.site-title a {
-	    @include sprite($logo);
-	}
-	
-</code></pre>
-				</section> -->
 
 				<section>
 					<h2>Putting it all together</h2>
@@ -625,7 +594,7 @@ gulp.task('images', function() {
       gulp.watch('js/*.js', ['lint', 'scripts']);
 
       // Watch .scss files
-      gulp.watch('**/*.scss', ['sass']);
+      gulp.watch('scss/*/*.scss', ['sass']);
 
       // Watch image files
       gulp.watch('img/source/*', ['images']);
@@ -648,11 +617,15 @@ gulp.task('images', function() {
 				</section>
 
 				<section>
-					<h2>Why Browsersync is awesome</h2>
-					<ul>
-						<li class="fragment">Not only watches your files and automatically injects changes into your web browser...</li>
-						<li class="fragment">...also lets you view the same local site on multiple devices at once! <em>(e.g. you can test sites on your computer, tablet, and phone all at one time)</em></li>
-					</ul>
+					<h2>Why Browsersync <br>is the best</h2>
+					<ol>
+						<li class="fragment">Watches your files and automatically injects changes into your web browser</li>
+						<li class="fragment">Lets you view the same local site on multiple devices at once! <em>(e.g. you can test sites on your computer, tablet, and phone all at one time)</em></li>
+					</ol>
+				</section>
+
+				<section>
+					<img src="img/all-devices.png" alt="" class="noborder">
 				</section>
 
 				<section data-background="img/mind_blown.gif">
@@ -810,7 +783,7 @@ gulp.task('images', function() {
 
 				<section>
 					<h2>Partials</h2>
-					<h3>Divide your styles into logical sections</h3>
+					<p>Organize your styles!</p>
 				</section>
 
 				<section>
@@ -899,7 +872,7 @@ Description: The fakest theme in all the land
 					<h2>Before Git...</h2>
 					<div class="fragment">
 						<img src="img/ftp.jpg" alt="" class="noborder" width="500">
-						<h3>...deploying sites and making changes via FTP was a pain.</h3>
+						<p>...deploying sites and making changes via FTP was a pain.</p>
 					</div>
 				</section>
 
@@ -1006,15 +979,15 @@ Description: The fakest theme in all the land
 				</section>
 
 				<section data-background="img/swirl.jpg" data-background-repeat="repeat" data-state="white-text">
-					<h1 style="margin-bottom:.75em;">Thanks! :D</h1>
+					<h1 style="margin-bottom:.75em;">Thanks! 😺</h1>
 				
 				</section>
 
 				<section data-background="img/swirl.jpg" data-background-repeat="repeat" data-state="white-text">
-					<h1>Keep in touch!</h1>
+					<h1>Keep in touch! 💌</h1>
 					<h4 style="margin-top:100px;"><a style="color:white;" href="http://twitter.com/daraskolnick">@daraskolnick</a></h4>
 					<h4><a style="color:white;" href="http://daraskolnick.com">daraskolnick.com</a></h4>
-					<h4>Slides:<br><strong><a style="color:white" href="http://daraskolnick.github.io/WCTO-dev-workflow-mtl">daraskolnick.github.io/WCTO-dev-workflow-mtl</a></strong></h4>
+					<h4>Slides:<br><strong><a style="color:white" href="http://daraskolnick.com/wcmtl">daraskolnick.com/wcmtl</a></strong></h4>
 				</section>
 
 			</div>
